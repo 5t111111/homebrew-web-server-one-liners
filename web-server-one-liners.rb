@@ -1,7 +1,7 @@
 require "formula"
 
-PACKAGE_VERSION = "0.1.1"
-PACKAGE_SHA = "e43bf7acbe712da1aca80886eebcc5bebeee49ef4c2d42d2016fd6626a3e903b"
+PACKAGE_VERSION = "0.1.2"
+PACKAGE_SHA = "716fa4e54cd062c258588d0be4e2b3835610addcfd4b14a866f1babc4a997edf"
 
 class WebServerOneLiners < Formula
   homepage "https://github.com/5t111111/web-server-one-liners"
