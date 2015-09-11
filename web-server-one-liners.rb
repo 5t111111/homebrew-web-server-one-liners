@@ -13,7 +13,6 @@ class WebServerOneLiners < Formula
   end
 
   def install
-    inreplace "bin/webserver", "/usr/local", HOMEBREW_PREFIX
-    prefix.install Dir["*"]
+    bin.install "bin/webserver"
   end
 end
